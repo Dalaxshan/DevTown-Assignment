@@ -17,7 +17,7 @@ export default function PageContainer() {
   const [convertedContent, setConvertContent] = useState(null);
 
   useEffect(() => {
-    let html = convertToHTML(editorState.getCurrentContent());//get updated value from editorState and convert into HTML
+    let html = convertToHTML(editorState.getCurrentContent()); //get updated value from editorState and convert into HTML
     setConvertContent(html);
   }, [editorState]);
 
@@ -27,6 +27,7 @@ export default function PageContainer() {
       __html: DOMPurify.sanitize(html)
     };
   }
+
 
   return (
     <div>
@@ -39,13 +40,18 @@ export default function PageContainer() {
         wrapperClassName="wrapper-class"
         editorClassName="editor-class"
         toolbarClassName="toolbar-class"
+        toolbar={{
+          options: ["inline", "blockType"],
+        }}
+
+
       />
 
-<div
-    className="preview"
-    dangerouslySetInnerHTML={createMarkup(convertedContent)}>
-  </div>
 
+      <div
+        className="preview"
+        dangerouslySetInnerHTML={createMarkup(convertedContent)}
+      ></div>
     </div>
   );
 }

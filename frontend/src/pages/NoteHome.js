@@ -14,10 +14,10 @@ export default function NoteHome() {
       <div className="row">
         {/*Side navigation and Search panel*/}
         <div
-          className="col col-sm-3 pt-4 pb-1 m-2"
+          className="col col-sm-3 mt-2"
           style={{ backgroundColor: "#e9ecef" }}
         >
-          <div className="d-flex bg-blue text-white rounded">
+          <div className="d-flex bg-blue text-white rounded m-3">
             <div className="form-outline">
               <input
                 type="search"
@@ -34,11 +34,11 @@ export default function NoteHome() {
                 height="16"
                 fill="currentColor"
                 className="bi bi-search"
-                viewBox="0 0 16 16"
+                viewBox="0 0 20 20"
               >
                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
               </svg>
-              Search
+
             </button>
           </div>
           <hr />
@@ -107,7 +107,7 @@ export default function NoteHome() {
           style={{ backgroundColor: "#e9ecef" }}
         >
           <div className="col col-12 ">
-            <header className="App-header">Office</header>
+            <header class="App-header">Office</header>
             <hr />
 
             <button type="button" className="btn btn-success p-2">
