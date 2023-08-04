@@ -107,7 +107,7 @@ export default function NoteHome() {
           style={{ backgroundColor: "#e9ecef" }}
         >
           <div className="col col-12 ">
-            <header class="App-header">Office</header>
+            <header className="App-header">Office</header>
             <hr />
 
             <button type="button" className="btn btn-success p-2">

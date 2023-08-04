@@ -63,7 +63,7 @@ export default function HomePage() {
               <p className="text-white-75 mb-5">
               Create and assign tasks inside your notes with due dates, flags, and reminders so nothing falls through the cracks.
               </p>
-              <a href="/register"><button class="bn632-hover bn22">Join Us</button></a>
+              <a href="/register"><button className="bn632-hover bn22">Join Us</button></a>
             </div>
           </div>
         </div>
@@ -73,30 +73,30 @@ export default function HomePage() {
 
 
     <div className="footer bg-dark text-center text-white">
-    <footer class=" text-center text-white">
-      <div class="container p-4">
-        <section class="">
+    <footer className=" text-center text-white">
+      <div className="container p-4">
+        <section className="">
 
-            <div class="row d-flex justify-content-center">
-              <div class="col-auto">
-                <p class="pt-2">
+            <div className="row d-flex justify-content-center">
+              <div className="col-auto">
+                <p className="pt-2">
                   <strong>Sign up for our newsletter</strong>
                 </p>
               </div>
 
-              <div class="col-md-5 col-12">
-                <div class="form-outline form-white mb-4">
+              <div className="col-md-5 col-12">
+                <div className="form-outline form-white mb-4">
                   <input
                     type="email"
                     id="form5Example21"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Enter Your Email address here!!"
                   />
                 </div>
               </div>
 
-              <div class="col-auto">
-                <button type="submit" class="btn btn-outline-light mb-4">
+              <div className="col-auto">
+                <button type="submit" className="btn btn-outline-light mb-4">
                   Subscribe
                 </button>
               </div>
@@ -104,9 +104,9 @@ export default function HomePage() {
 
         </section>
 
-        <section class="mb-4">
+        <section className="mb-4">
           <div
-            class="text-center p-3"
+            className="text-center p-3"
             style={{ backgroundcolor: "rgba(0, 0, 0, 0.2)" }}
           >
             © 2023 Copyright: M.Dalaxshan
