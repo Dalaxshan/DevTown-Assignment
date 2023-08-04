@@ -2549,7 +2549,7 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  print-color-adjust: exact;
 }
 .form-check-input[type="checkbox"] {
   border-radius: 0.25em;
@@ -3141,13 +3141,13 @@ fieldset:disabled .btn {
 }
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #1d02a8;
+  border-color: #cec8eb;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #a4bcf1;
+  border-color: #a8a6da;
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
@@ -3407,8 +3407,8 @@ fieldset:disabled .btn {
 }
 .btn-light:hover {
   color: #000;
-  background-color: #f9fafb;
-  border-color: #f9fafb;
+  background-color: #75b0eb;
+  border-color: #95c6f8;
 }
 .btn-check:focus + .btn-light,
 .btn-light:focus {
@@ -12132,4 +12132,35 @@ header.masthead {
     #2bb673
   );
   box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 5vh;
+  text-align: center;
+  padding: 12px;
+ }
+
+ .wrapper-class {
+  padding: 1rem;
+  border: 1px solid #ccc;
+
+
+}
+.editor-class {
+  background-color:lightgray;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.toolbar-class {
+  border: 1px solid #ccc;
+
 }

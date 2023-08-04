@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "../App.css";
 import axios from "axios";
-
 import swal from "sweetalert2";
+
 import { Link,useNavigate } from "react-router-dom";
 export default function Register() {
   let navigate = useNavigate();
